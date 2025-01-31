@@ -84,7 +84,7 @@ alias gpush='git push origin'
 alias lg='lazygit'
 
 # Nixos Aliases
-alias rebuild='sudo nixos-rebuild switch --flake ~/rudra/.#default'
+alias rebuild='sudo nixos-rebuild switch --flake ~/killer/.#default'
 alias recats='sudo nix flake lock --update-input nixCats && sudo nixos-rebuild switch --flake ~/rudra/.#default'
 
 # Downloads Aliases

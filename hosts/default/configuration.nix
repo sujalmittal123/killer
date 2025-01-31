@@ -280,8 +280,6 @@ in {
     btop
     lm_sensors
     inxi
-    auto-cpufreq
-    nvtopPackages.nvidia
     anydesk
     rustdesk-flutter
 
