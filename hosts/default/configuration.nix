@@ -6,10 +6,10 @@
   options,
   ...
 }: let
-  username = "vivek";
-  userDescription = "Vivek Sharma";
+  username = "sujal";
+  userDescription = "Sujal Aggrawal";
   homeDirectory = "/home/${username}";
-  hostName = "viri";
+  hostName = "killer";
   timeZone = "Asia/Kolkata";
 in {
   imports = [

@@ -3,8 +3,8 @@ ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
 # Download Zinit, if it's not there yet
 if [ ! -d "$ZINIT_HOME" ]; then
-   mkdir -p "$(dirname $ZINIT_HOME)"
-   git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+    mkdir -p "$(dirname "$ZINIT_HOME")"
+    git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 fi
 
 # Source/Load zinit
@@ -133,10 +133,10 @@ eval "$(starship init zsh)"
 # Export Paths
 
 # pnpm
-export PNPM_HOME="/home/vivek/.local/share/pnpm"
+export PNPM_HOME="/home/sujal/.local/share/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+    *":$PNPM_HOME:"*) ;;
+    *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
 
@@ -149,4 +149,4 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
 
 # Turso
-export PATH="$PATH:/home/vivek/.turso"
+export PATH="$PATH:/home/sujal/.turso"

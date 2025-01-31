@@ -1,5 +1,5 @@
 {
-  description = "Viri flake";
+  description = "Killer flake";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -9,7 +9,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     # nixCats = {
-    #   url = "path:/home/vivek/rudra/modules/nixCats";
+    #   url = "path:/home/sujal/killer/modules/nixCats";
     #   inputs.nixpkgs.follows = "nixpkgs";
     # };
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
