@@ -356,6 +356,7 @@ in {
     grim
     slurp
     waybar
+    hyprpanel
     dunst
     wl-clipboard
     swaynotificationcenter
