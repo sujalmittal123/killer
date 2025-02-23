@@ -462,7 +462,7 @@ in {
       enable = true;
     };
     libinput.enable = true;
-    # upower.enable = true;
+    upower.enable = true;
     fstrim.enable = true;
     gvfs.enable = true;
     openssh.enable = true;
@@ -547,8 +547,6 @@ in {
     pulseaudio.enable = false;
     graphics.enable = true;
   };
-
-  powerManagement.powertop.enable = true;
 
   services.blueman.enable = true;
 
