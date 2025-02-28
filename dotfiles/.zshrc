@@ -150,3 +150,5 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 # Turso
 export PATH="$PATH:/home/sujal/.turso"
+
+source "$HOME/.sdkman/bin/sdkman-init.sh"

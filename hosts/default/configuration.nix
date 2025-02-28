@@ -221,7 +221,7 @@ in {
     nodePackages_latest.yarn
     nodePackages_latest.nodejs
     bun
-    jdk
+    zip
     maven
     gcc
     openssl
